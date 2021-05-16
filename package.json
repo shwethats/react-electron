@@ -8,16 +8,22 @@
     "appId": "com.test"
   },
   "main": "public/electron.js",
-  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "cross-env": "^7.0.3",
     "electron-is-dev": "^2.0.0",
+    "json-server": "^0.16.3",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-redux-toastr": "^7.6.5",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
     "web-vitals": "^1.1.2"
   },
   "devDependencies": {
@@ -35,7 +41,7 @@
     "release": "npm run react-build && electron-builder --publish=always",
     "build": "npm run react-build && npm run electron-build",
     "start": "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\""
-    },
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
