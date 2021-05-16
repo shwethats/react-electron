@@ -1,10 +1,14 @@
 import React from 'react'
 import '../App.scss';
+import UserListComponent from './UserListComponent';
 
-export default function LandingPage() {
+export default function LandingPage( props ) {
+
+	debugger
 	return (
-		<div class="flex-container">
-			<div className="left-side">1</div>
+		<div className="flex-container">
+			<UserListComponent />
+
 			<div className="right-side">2</div>
 		</div>
 	)

@@ -1,9 +1,11 @@
 import './App.scss';
+import AppRouter from './routers/AppRouter';
 
-import LandingPage from './components/LandingPage.jsx'
+
+
 function App() {
   return (
-    <LandingPage />
+    <AppRouter />
   );
 }
 

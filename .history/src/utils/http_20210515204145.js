@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+import { API_BASE_URL, API_VERSION } from 'src/config';
 
 import qs from 'qs';
 
@@ -9,11 +10,11 @@ XMLHttpRequest.prototype.send = function ( ...args ) {
   return originalXHRSend.apply( this, args );
 };
 
-const http = axios.create({
-  baseURL: 'http://localhost:3000/react-electron/',
+const http = axios.create( {
+  baseURL: API_BASE_URL + API_VERSION,
   responseType: 'json',
   withCredentials: false
-});
+} );
 
 http.interceptors.request.use(
   config => {
