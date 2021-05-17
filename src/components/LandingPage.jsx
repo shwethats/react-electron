@@ -1,15 +1,19 @@
 import React from 'react'
 import '../App.scss';
-import UserListComponent from './UserListComponent';
+import userList from '../user.json';
+
+import UserListComponent from './UserListComponent.jsx';
+
 
 export default function LandingPage( props ) {
 
-	debugger
+	
 	return (
-		<div className="flex-container">
-			<UserListComponent />
+		
+			<UserListComponent
+				list={userList.users}
+			/>
 
-			<div className="right-side">2</div>
-		</div>
+		
 	)
 }

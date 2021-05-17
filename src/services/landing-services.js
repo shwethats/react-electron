@@ -1,13 +1,13 @@
-import http from 'src/utils/http';
+import http from '../utils/http';
 
 export function fetchUser( payload ) {
-	return http.get( '/v1/get/iw/pending/cheque', { params: payload } );
+	return http.get( 'user', { params: payload } );
 }
 
 export function fetchAllUsers() {
-	return http.get( '/v1/get/iw/pending/cheques/list' );
+	return http.get( '/users' );
 }
 
 export function deleteUser( payload ) {
-	return http.delete( '/v1/get/iw/pending/cheques/list', { params: payload } );
+	return http.delete( '/delete/', { params: payload } );
 }

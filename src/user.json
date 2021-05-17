@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name":"Nithya",
+      "email":"test@gmail.com",
+      "mobile":"2345678945",
+      "gender":"Female",
+      "nationality":"Inian"
+    },
+    {
+      "id": "2",
+      "name":"Sanju",
+      "email":"user@gmail.com",
+      "mobile":"2345678945",
+      "gender":"Female",
+      "nationality":"Inian"
+    },
+    {
+      "id": "3",
+      "name":"Bharat",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"Inian"
+    },
+    {
+      "id": "4",
+      "name":"karam",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "5",
+      "name":"Yakub",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "6",
+      "name":"User 6",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "7",
+      "name":"User 7",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "8",
+      "name":"User 8",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "9",
+      "name":"Yakub",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "12",
+      "name":"User 12",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "10",
+      "name":"User 10",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "11",
+      "name":"user 11",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "14",
+      "name":"user 14",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    },
+    {
+      "id": "15",
+      "name":"user 15",
+      "email":"abc@gmail.com",
+      "mobile":"2345678945",
+      "gender":"male",
+      "nationality":"NRI"
+    }
+    
+
+  ]
+}

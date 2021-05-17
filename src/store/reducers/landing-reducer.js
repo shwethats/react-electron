@@ -8,7 +8,7 @@ const defaultState = {
 };
 
 const landingReducer = ( state = defaultState, action ) => {
-
+	debugger
 	switch ( action.type ) {
 		case types.FETCH_ALL_USER_LIST:
 			return {

@@ -7,7 +7,7 @@ class AppRouter extends React.Component {
 	render() {
 		return (
 			<Fragment>
-				<BrowserRouter basename={'/react-electron/'}>
+				<BrowserRouter basename={'/'}>
 					<Switch>
 						<Route
 							path='/'
