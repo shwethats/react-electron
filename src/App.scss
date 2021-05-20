@@ -6,6 +6,7 @@ $light-gray: #f2f2f2;
 $green: #009900;
 $light-green: #99ff99;
 $white:#ffffff;
+$red:#ff4d4d;
 
 
 
@@ -86,12 +87,13 @@ margin: 0px;
   
 }
 
-label{
+ .user-details-header{
   text-transform: capitalize; 
   font-size: 1.4em;
   font-weight: bold;
   line-height: 0.5em;
 }
+
 p{
   font-size: 1.4em;
   line-height: 0.5em;
@@ -124,22 +126,66 @@ img {
   display:flex; flex-direction: row; 
   margin: 10px;
 }
-
 .delete-btn{
   height: 30px;
-    width: 100px;
-    font-size: 1.2em;
-    background-color: $green;
-    color: $white;
-    float: right;
-    border: none;
+  width: 100px;
+  font-size: 1.2em;
+  background-color: $red;
+  color: $white;
+  float: right;
+  border: none;
 }
 
+.create-btn{
+  height: 30px;
+  width: 100px;
+  font-size: 1.2em;
+  background-color: $green;
+  margin-right: 2px;
+  color: $white;
+  float: right;
+  border: none;
+}
+
+.btn-previous{
+  height: 30px;
+  width: 100px;
+  font-size: 1.2em;
+  margin-right: 2px;
+  border: none;
+  color: $white;
+  background-color: $green;
+}
+
+
+button:hover, button:focus>.btn-previous{
+  -moz-outline-style: none;
+	outline:none;
+	outline:0;
+}
+
+.btn-next{
+  background-color: $red;
+  height: 30px;
+  width: 100px;
+  font-size: 1.2em;
+  background-color: $red;
+  color: $white;
+  outline: 1px solid red;
+}
+
+.create-user-form{
+  margin: 0 auto;
+  display:flex; flex-direction: column; justify-content: center; align-items: center
+}
+
+.input-container{
+  line-height: 3em;
+}
 
 .button-div{
 width:70%;
 transform: translate(0%, 20%);
-
 }
 
 .footer {
@@ -152,13 +198,12 @@ transform: translate(0%, 20%);
   text-align: center;
 }
 
+
+
 input[type=search] {
     height: 1.8em;
 width: 95%;
 margin: 0 auto;
-
-
-
 }
 
 .user-details{
