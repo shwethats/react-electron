@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 
 import _ from 'lodash';
 
-import FontAwesome from 'react-fontawesome'
-import { useHistory } from 'react-router-dom';
 import UserDetailsComponent from '../user/UserDetailsComponent.jsx';
 import CreateUserComponent from './CreateUserComponent.jsx';
 
@@ -17,7 +15,6 @@ export default function UserListComponent( { list = [] } ) {
   const [ user, setUser ] = useState( defaultUser );
   const [ isUserDisplay, setIsUserDisplay ] = useState( true );
 
-  let history = useHistory();
 
 
   const handleChange = ( event ) => {
